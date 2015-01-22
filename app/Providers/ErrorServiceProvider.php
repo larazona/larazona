@@ -1,4 +1,4 @@
-<?php namespace App\Providers;
+<?php namespace Larazona\Providers;
 
 use Illuminate\Support\ServiceProvider;
 use Whoops\Handler\PrettyPageHandler;
