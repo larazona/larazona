@@ -145,6 +145,7 @@ return [
 		'Larazona\Providers\ConfigServiceProvider',
 		'Larazona\Providers\EventServiceProvider',
 		'Larazona\Providers\RouteServiceProvider',
+		'Larazona\Providers\ErrorServiceProvider',
 
 	],
 
