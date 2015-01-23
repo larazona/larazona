@@ -8,9 +8,9 @@
 				padding: 0;
 				width: 100%;
 				height: 100%;
-				color: #B0BEC5;
+				color: #ff5205;
 				display: table;
-				font-weight: 100;
+				font-weight: 200;
 				font-family: 'Lato';
 			}
 
@@ -38,8 +38,8 @@
 	<body>
 		<div class="container">
 			<div class="content">
-				<div class="title">Laravel 5</div>
-				<div class="quote">{{ Inspiring::quote() }}</div>
+				<img src="{{ URL::asset('/images/larazona.png') }}" />
+				<div class="title">Larazona</div>
 			</div>
 		</div>
 	</body>
