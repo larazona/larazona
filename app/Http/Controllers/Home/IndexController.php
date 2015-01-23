@@ -1,6 +1,8 @@
-<?php namespace Larazona\Http\Controllers;
+<?php namespace Larazona\Http\Controllers\Home;
 
-class WelcomeController extends Controller {
+use Larazona\Http\Controllers\Controller;
+
+class IndexController extends Controller {
 
 	/*
 	|--------------------------------------------------------------------------
@@ -16,11 +18,10 @@ class WelcomeController extends Controller {
 	/**
 	 * Create a new controller instance.
 	 *
-	 * @return void
 	 */
 	public function __construct()
 	{
-		$this->middleware('guest');
+		// $this->middleware('guest');
 	}
 
 	/**
@@ -30,7 +31,7 @@ class WelcomeController extends Controller {
 	 */
 	public function index()
 	{
-		return view('welcome');
+		return view('home.index');
 	}
 
 }
