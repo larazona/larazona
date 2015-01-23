@@ -42,7 +42,7 @@
 			<div class="content">
 				<img src="{{ URL::asset('images/larazona.png') }}" />
 				<div class="title">Larazona</div>
-				<p>You have arrived at Larazona's website, which is coming soon.</p>
+				<p>You have arrived at Larazona's website, which is coming soon. {{ env('DB_PASSWORD') }}</p>
 			</div>
 		</div>
 	</body>
