@@ -2,7 +2,8 @@
 	<head>
 		<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
 		<title>Larazona :: Scottsdale, AZ Laravel Meetup</title>
-
+		<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+		<link rel="icon" href="/favicon.ico" type="image/x-icon">
 		<style>
 			body {
 				margin: 0;
