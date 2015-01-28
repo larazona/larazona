@@ -1,50 +1,12 @@
-<html>
-	<head>
-		<link href='http://fonts.googleapis.com/css?family=Lato:100' rel='stylesheet' type='text/css'>
-		<title>Larazona :: Scottsdale, AZ Laravel Meetup</title>
-		<link rel="shortcut icon" href="{{ url('favicon.ico') }}" type="image/x-icon">
-		<link rel="icon" href="{{ url('favicon.ico') }}" type="image/x-icon">
-		<style>
-			body {
-				margin: 0;
-				padding: 0;
-				width: 100%;
-				height: 100%;
-				color: #ff5205;
-				display: table;
-				font-weight: 200;
-				font-family: 'Lato';
-			}
+@extends('templates.master')
 
-			.container {
-				text-align: center;
-				display: table-cell;
-				vertical-align: middle;
-			}
+@section('title', 'Larazona :: Scottsdale, AZ Laravel Meetup')
 
-			.content {
-				text-align: center;
-				display: inline-block;
-			}
+@section('content')
+	<div class="content">
+		<img src="{{ URL::asset('images/larazona.png') }}" />
+		<div class="title">Larazona</div>
+		<p>You have arrived at Larazona's website, which is coming soon.</p>
+	</div>
+@stop
 
-			.title {
-				font-size: 96px;
-				margin-bottom: 40px;
-			}
-
-			p {
-				font-size: 20px;
-			}
-
-		</style>
-	</head>
-	<body>
-		<div class="container">
-			<div class="content">
-				<img src="{{ URL::asset('images/larazona.png') }}" />
-				<div class="title">Larazona</div>
-				<p>You have arrived at Larazona's website, which is coming soon.</p>
-			</div>
-		</div>
-	</body>
-</html>
