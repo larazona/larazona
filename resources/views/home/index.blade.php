@@ -7,5 +7,6 @@
   <div class="title">Larazona</div>
   <p>You have arrived at Larazona's website, which is coming soon.</p>
   <p>For more information, please visit <a href="http://www.meetup.com/larazona">Meetup.com</a></p>
+  <a href="mailto:larazonagroup@gmail.com">Email us</a>
 @stop
 
