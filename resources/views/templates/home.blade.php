@@ -8,8 +8,8 @@
     <link rel="stylesheet" href="{{ url('css/styles.css') }}" />
 </head>
 <body>
-<div class="container">
-    @include('partials.header')
+<div class="container center">
     @yield('content')
 </div>
-@include('partials.footer')
+</body>
+</html>
