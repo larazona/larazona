@@ -1,4 +1,4 @@
-<?php namespace Larazona;
+<?php namespace Larazona\Models;
 
 use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model;

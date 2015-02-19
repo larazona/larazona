@@ -1,5 +1,6 @@
 <?php namespace Larazona\Http\Controllers\Auth;
 
+use Illuminate\Support\Facades\Auth;
 use Larazona\Http\Controllers\Controller;
 use Illuminate\Contracts\Auth\Guard;
 use Illuminate\Contracts\Auth\Registrar;
@@ -34,5 +35,15 @@ class AuthController extends Controller {
 
 		$this->middleware('guest', ['except' => 'getLogout']);
 	}
+
+    public function getLogin() {
+        return view('auth.login');
+    }
+
+    public function getLogout() {
+        Auth::logout();
+
+        return redirect()->to('/');
+    }
 
 }
