@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="{{ url('css/styles.css') }}" />
 </head>
 <body>
+@include('partials.tracking')
 <div class="container center">
     @yield('content')
 </div>
