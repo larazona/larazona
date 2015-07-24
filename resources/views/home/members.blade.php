@@ -6,30 +6,44 @@
 
     <h1>Members</h1>
 
-    <ul class="list-group">
-        @foreach ($members['results'] as $member)
-            <?php $member = (object) $member; ?>
-            <li class="list-group-item">
-                <h3>{{ $member->name }}</h3>
+    <div class="row">
 
-                <p>Location: {{ $member->city . ', ' . $member->state . ' ' . strtoupper($member->country) }}</p>
+        @foreach (array_chunk($members['results'], (count($members['results']) / 2)) as $memberSet)
 
-                <?php $topics = ''; ?>
-                @if (count($member->topics))
-                @foreach ($member->topics as $topic)
-                    <?php $topics .= $topic['name'] . ', '; ?>
-                @endforeach
-                @endif
+            <div class="col-sm-6 clearfix">
 
-                <h4>Meetup Topics</h4>
+                <ul class="list-group">
 
-                <p>{{ (empty($topics)) ? 'None' : substr($topics, 0, -2) }}</p>
+                    @foreach ($memberSet as $member)
+                        <?php $member = (object) $member; ?>
+                        <li class="list-group-item">
+                            <h3>{{ $member->name }}</h3>
 
-                <a class="btn btn-primary" href="{{ $member->link }}">View on Meetup</a>
+                            <p>Location: {{ $member->city . ', ' . $member->state . ' ' . strtoupper($member->country) }}</p>
 
-            </li>
-        @endforeach
-    </ul>
+                            <?php $topics = ''; ?>
+                            @if (count($member->topics))
+                                @foreach ($member->topics as $topic)
+                                    <?php $topics .= $topic['name'] . ', '; ?>
+                                @endforeach
+                            @endif
 
+                            <h4>Meetup Topics</h4>
+
+                            <p>{{ (empty($topics)) ? 'None' : substr($topics, 0, -2) }}</p>
+
+                            <a class="btn btn-primary" href="{{ $member->link }}">View on Meetup</a>
+
+                        </li>
+
+                    @endforeach
+
+                </ul>
+
+            </div>
+
+         @endforeach
+
+    </div>
 
 @stop
