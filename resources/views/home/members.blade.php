@@ -8,9 +8,9 @@
 
     <div class="row">
 
-        @foreach (array_chunk($members['results'], (count($members['results']) / 2)) as $memberSet)
+        @foreach (array_chunk($members['results'], (floor(count($members['results']) / 2))) as $memberSet)
 
-            <div class="col-sm-6 clearfix">
+            <div class="col-sm-6">
 
                 <ul class="list-group">
 
