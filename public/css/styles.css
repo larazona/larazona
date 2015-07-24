@@ -29,3 +29,11 @@ p {
 h1, h2, h3, h4, a {
   color: #F15743;
 }
+
+.btn,
+.btn:hover,
+.btn:active,
+.btn:focus {
+  background-color: #F15743;
+  border: none;
+}

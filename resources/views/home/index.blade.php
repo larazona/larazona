@@ -3,7 +3,7 @@
 @section('title', 'Larazona :: Scottsdale, AZ Laravel Meetup')
 
 @section('content')
-  <div class="row">
+  <div class="row" style="margin-bottom: 20px;">
     <div class="col-sm-4">
         <a href="http://www.meetup.com/larazona"><img class="img-responsive" src="{{ URL::asset('images/larazona.png') }}" alt="Larazona logo"/></a>
     </div>
@@ -34,6 +34,12 @@
               <h4>Organizer</h4>
 
               <p>You can reach Larazona organizer Scott Hummel at <a href="mailto:scott@scotthummel.net">this email address</a>. We'll be happy to post job listings or other items of interest to our group. Please no emails about website SEO or expanding the reach of the website.  This website is for our members.</p>
+
+              <hr />
+
+              <h4>Members</h4>
+
+              <a class="btn btn-sm btn-primary" href="/members">List of Members</a>
           </div>
 
           <h3>Next Month's Topic</h3>

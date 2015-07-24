@@ -21,6 +21,8 @@ Route::get('logout', 'Auth\AuthController@getLogout');
 Route::get('register', 'Auth\AuthController@getRegister');
 Route::post('register', 'Auth\AuthController@postRegister');
 
+Route::resource('members', 'Home\MembersController');
+
 Route::controllers([
 	'login' => 'Auth\AuthController',
 	'password' => 'Auth\PasswordController',
