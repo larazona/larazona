@@ -15,7 +15,9 @@
                 <ul class="list-group">
 
                     @foreach ($memberSet as $member)
+
                         <?php $member = (object) $member; ?>
+
                         <li class="list-group-item">
                             <h3>{{ $member->name }}</h3>
 

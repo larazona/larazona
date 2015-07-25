@@ -54,10 +54,12 @@
               <div class="col-sm-6">
                   <p>Larazona is a meetup based in Scottsdale, Arizona.  We meet monthly to discuss topics of interest to a Laravel developer.  Anyone with an interest in Laravel is welcome.  If you're not sold on Laravel, you're still welcome to come check us out and see if Laravel might be a framework solution for you.  If you're not using a framework, you're still welcome.  Our goal is to reach any current or potential Laravel developer.</p>
                   <p>We're only a few months old &mdash; we formed in January 2015 &mdash; but already we've been offering a diverse array of topics for our developers.  We've had several topics on Laravel itself, including an introduction to the framework, Elixir, and how to mix Laravel with Angular.  We also had an excellent presentation on how to use Doctrine with Laravel (instead of Eloquent) and then how to test the code.  Then we had a couple of sessions on Redis.</p>
-              </div>
-              <div class="col-sm-6">
                   <p>Next on our agenda is a collaborative project with our entire group, where we code a ticketing resale site, using the same API as Orbitz and Cheap Tickets use.  We'll be working out of a Github repo and making collaborative decisions on how best to approach the API, and what we can do it it.  Coding the project will take several sessions.  If all goes well, we may take it as far as production.  So come get some actually Laravel coding experience.</p>
 
+              </div>
+              <div class="col-sm-6">
+                  <p>Our philosophy is that you learn by doing.  That's why we have created ticketing resale site project.  We want to give our members the chance to get hands-on experience in coding Laravel.  And doing it in a collaborative environment will foster skills in working with others.</p>
+                  <p>We also try to share the duties in giving presentations.  Larazona is a team.  We don't want to monopolize a single presenter.  We want all of our members to give at least one presentation at some point.  After all, everybody has one skill they could share, something in which they really excel.  So we're always open to new topics, whether you want to present on the topic or not.  Suggest a topic and we can probably find someone to present it.</p>
                   <p>In short, Larazona is a dynamic and growing group of developers.  We've got 70-some developers signed up through Meetup.com and we're growing nearly every day.  We have a core group of developers as well as an ever-changing array of newcomers.  So come meet some great developers, learn some best practices and stay for the pizza.  Yes, there's usually food.  We meet in Scottsdale, at the fabuluous Spear Education facility at Scottsdale Road and Princess Boulevard.</p>
               </div>
           </div>
