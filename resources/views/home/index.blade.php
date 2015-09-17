@@ -42,9 +42,9 @@
               <a class="btn btn-sm btn-primary" href="/members">List of Members</a>
           </div>
 
-          <h3>Next Month's Topic</h3>
+          <h3>October's Topic</h3>
 
-          <p>We'll be continuing our discussion of <strong>Redis</strong>.  We'll be looking at an in-depth case study of Redis usage, as well as how pub-sub works in Redis.  Then in September, we'll be starting The Project, where you can get hands-on coding experience.</p>
+          <p>We'll be doing some code reviews.  Some members are going to bring in some of their code and show us what they've been working on.  We'll also have some of the latest Laracasts to show.</p>
       </div>
 
       <div class="col-sm-8">
@@ -60,7 +60,7 @@
               <div class="col-sm-6">
                   <p>Our philosophy is that you learn by doing.  That's why we have created ticketing resale site project.  We want to give our members the chance to get hands-on experience in coding Laravel.  And doing it in a collaborative environment will foster skills in working with others.</p>
                   <p>We also try to share the duties in giving presentations.  Larazona is a team.  We don't want to monopolize a single presenter.  We want all of our members to give at least one presentation at some point.  After all, everybody has one skill they could share, something in which they really excel.  So we're always open to new topics, whether you want to present on the topic or not.  Suggest a topic and we can probably find someone to present it.</p>
-                  <p>In short, Larazona is a dynamic and growing group of developers.  We've got 70-some developers signed up through Meetup.com and we're growing nearly every day.  We have a core group of developers as well as an ever-changing array of newcomers.  So come meet some great developers, learn some best practices and stay for the pizza.  Yes, there's usually food.  We meet in Scottsdale, at the fabuluous Spear Education facility at Scottsdale Road and Princess Boulevard.</p>
+                  <p>In short, Larazona is a dynamic and growing group of developers.  We've got 80-some developers signed up through <a href="http://www.meetup.com/larazona">Meetup.com</a> and we're growing nearly every day.  We have a core group of developers as well as an ever-changing array of newcomers.  So come meet some great developers, learn some best practices and stay for the pizza.  Yes, there's usually food.  We meet in Scottsdale, at the fabuluous Spear Education facility at Scottsdale Road and Princess Boulevard.</p>
               </div>
           </div>
 

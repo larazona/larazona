@@ -12,5 +12,4 @@
 <div class="container center">
     @yield('content')
 </div>
-</body>
-</html>
+@include('partials.footer')
