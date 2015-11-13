@@ -42,9 +42,9 @@
               <a class="btn btn-sm btn-primary" href="/members">List of Members</a>
           </div>
 
-          <h3>October's Topic</h3>
+          <h3>November's Topic</h3>
 
-          <p>We'll be doing some code reviews.  Some members are going to bring in some of their code and show us what they've been working on.  We'll also have some of the latest Laracasts to show.</p>
+          <p>We're going to start having various members show off projects that they've built.  One of our members, J, is going to demonstrate a data harvester he built.  In the process of demonstrating his project, we'll learn about Jobs, Events, Artisan Commands, and the Scheduler.  This should be a great way to learn about some key components of Laravel, so don't miss it! </p>
       </div>
 
       <div class="col-sm-8">
