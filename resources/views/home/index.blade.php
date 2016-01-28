@@ -42,9 +42,13 @@
               <a class="btn btn-sm btn-primary" href="/members">List of Members</a>
           </div>
 
-          <h3>November's Topic</h3>
+          <h3>Affiliates</h3>
 
-          <p>We're going to start having various members show off projects that they've built.  One of our members, J, is going to demonstrate a data harvester he built.  In the process of demonstrating his project, we'll learn about Jobs, Events, Artisan Commands, and the Scheduler.  This should be a great way to learn about some key components of Laravel, so don't miss it! </p>
+          <a href="http://www.larajobs.com"><img style="width: 50%" class="img-responsive" src="/images/larajobs.jpg" alt="LaraJobs" /></a>
+
+          <h3>February's Topic</h3>
+
+          <p>To be determined.  Probably a show and tell on Stripe.</p>
       </div>
 
       <div class="col-sm-8">
