@@ -33,7 +33,7 @@
 
               <h4>Organizer</h4>
 
-              <p>You can reach Larazona organizer Scott Hummel at <a href="mailto:scott@scotthummel.net">this email address</a>. We'll be happy to post job listings or other items of interest to our group. Please no emails about website SEO or expanding the reach of the website.  This website is for our members.</p>
+              <p>You can reach Larazona organizer Scott Hummel at <a href="mailto:scotthummel@icloud.com">this email address</a>. We'll be happy to post job listings or other items of interest to our group. Please no emails about website SEO or expanding the reach of the website.  This website is for our members.</p>
 
               <hr />
 
@@ -44,7 +44,7 @@
 
           <h3>February's Topic</h3>
 
-          <p>To be determined.  Scott will be giving a presentation on "Up and Running With Stripe," in which he will go from how to sign up for Stripe, install it and use the Stripe API.  There will be code samples.  He'll also display the dashboard so you can see what transactions look like in Stripe.</p>
+          <p>Scott will be giving a presentation on "Up and Running With Stripe." He will explain how to sign up for the Stripe payment gateway, how to install Stripe and and how to use the Stripe API.  There will be code samples from one of his projects.  He'll also display the dashboard so you can see what transactions look like in Stripe.</p>
       </div>
 
       <div class="col-sm-8">
