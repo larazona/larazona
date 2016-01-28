@@ -42,13 +42,9 @@
               <a class="btn btn-sm btn-primary" href="/members">List of Members</a>
           </div>
 
-          <h3>Affiliates</h3>
-
-          <a href="http://www.larajobs.com"><img style="width: 50%" class="img-responsive" src="/images/larajobs.jpg" alt="LaraJobs" /></a>
-
           <h3>February's Topic</h3>
 
-          <p>To be determined.  Probably a show and tell on Stripe.</p>
+          <p>To be determined.  Scott will be giving a presentation on "Up and Running With Stripe," in which he will go from how to sign up for Stripe, install it and use the Stripe API.  There will be code samples.  He'll also display the dashboard so you can see what transactions look like in Stripe.</p>
       </div>
 
       <div class="col-sm-8">
